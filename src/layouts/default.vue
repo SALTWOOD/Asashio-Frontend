@@ -1,7 +1,9 @@
 <template>
-  <v-app>
-    <app-bar />
-  </v-app>
+  <v-main>
+    <router-view />
+  </v-main>
+
+  <AppFooter />
 </template>
 
 <script lang="ts" setup>

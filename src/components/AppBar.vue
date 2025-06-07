@@ -18,15 +18,6 @@
       <v-icon>mdi-account</v-icon>
     </v-btn>
   </v-app-bar>
-
-  <!-- <v-navigation-drawer v-model="drawer" :clipped="$vuetify.display.mdAndUp" :permanent="$vuetify.display.mdAndUp">
-    <v-list class="mt-10" density="compact" nav>
-    </v-list>
-  </v-navigation-drawer> -->
-
-  <v-container fluid>
-    <router-view />
-  </v-container>
 </template>
 
 <script setup lang="ts">
